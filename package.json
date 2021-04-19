@@ -1,0 +1,25 @@
+{
+    "name": "hk-r1-luascripthint",
+    "displayName": "hk_r1_luaScriptHint",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lua",
+            "aliases": ["lua", "lua"],
+            "extensions": [""],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lua",
+            "scopeName": "",
+            "path": "./syntaxes/lua.tmLanguage.json"
+        }]
+    }
+}
